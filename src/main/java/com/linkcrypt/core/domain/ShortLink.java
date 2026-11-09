@@ -1,7 +1,7 @@
-package com.example.shortener.core.domain;
+package com.linkcrypt.core.domain;
 
-import com.example.shortener.core.exception.LimitExceededException;
-import com.example.shortener.core.exception.ValidationException;
+import com.linkcrypt.core.exception.LimitExceededException;
+import com.linkcrypt.core.exception.ValidationException;
 
 import java.time.Instant;
 import java.util.Objects;

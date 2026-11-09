@@ -1,8 +1,8 @@
-package com.example.shortener.core.service;
+package com.linkcrypt.core.service;
 
-import com.example.shortener.core.domain.User;
-import com.example.shortener.core.port.AppLogger;
-import com.example.shortener.core.port.UserRepository;
+import com.linkcrypt.core.domain.User;
+import com.linkcrypt.core.port.AppLogger;
+import com.linkcrypt.core.port.UserRepository;
 
 import java.util.UUID;
 

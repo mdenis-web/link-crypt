@@ -1,6 +1,6 @@
-package com.example.shortener.core.port;
+package com.linkcrypt.core.port;
 
-import com.example.shortener.core.domain.User;
+import com.linkcrypt.core.domain.User;
 
 import java.util.UUID;
 

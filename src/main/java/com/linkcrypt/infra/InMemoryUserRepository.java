@@ -1,7 +1,7 @@
-package com.example.shortener.infra;
+package com.linkcrypt.infra;
 
-import com.example.shortener.core.domain.User;
-import com.example.shortener.core.port.UserRepository;
+import com.linkcrypt.core.domain.User;
+import com.linkcrypt.core.port.UserRepository;
 
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

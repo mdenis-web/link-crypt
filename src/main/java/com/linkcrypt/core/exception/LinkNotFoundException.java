@@ -1,4 +1,4 @@
-package com.example.shortener.core.exception;
+package com.linkcrypt.core.exception;
 
 public class LinkNotFoundException extends RuntimeException {
     public LinkNotFoundException(String code) {

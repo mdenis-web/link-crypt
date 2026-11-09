@@ -1,4 +1,4 @@
-package com.example.shortener.core.exception;
+package com.linkcrypt.core.exception;
 
 public class LinkExpiredException extends RuntimeException {
     public LinkExpiredException(String code) {

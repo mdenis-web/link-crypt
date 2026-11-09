@@ -1,6 +1,6 @@
-package com.example.shortener.util;
+package com.linkcrypt.util;
 
-import com.example.shortener.core.exception.ValidationException;
+import com.linkcrypt.core.exception.ValidationException;
 
 import java.net.URI;
 import java.net.URISyntaxException;

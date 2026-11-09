@@ -1,6 +1,6 @@
-package com.example.shortener.infra;
+package com.linkcrypt.infra;
 
-import com.example.shortener.core.port.AppLogger;
+import com.linkcrypt.core.port.AppLogger;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

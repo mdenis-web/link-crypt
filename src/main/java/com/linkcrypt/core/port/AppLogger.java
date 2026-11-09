@@ -1,4 +1,4 @@
-package com.example.shortener.core.port;
+package com.linkcrypt.core.port;
 
 public interface AppLogger {
     void info(String message);

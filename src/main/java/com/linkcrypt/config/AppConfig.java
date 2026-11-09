@@ -1,4 +1,4 @@
-package com.example.shortener.config;
+package com.linkcrypt.config;
 
 import java.time.Duration;
 
