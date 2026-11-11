@@ -18,8 +18,8 @@ public final class ConfigLoader {
         }
 
         Properties props = new Properties();
-        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
-            props.load(r);
+        try (Reader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            props.load(reader);
         }
         return fromProperties(props);
     }

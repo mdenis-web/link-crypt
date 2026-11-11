@@ -16,10 +16,10 @@ public class UserService {
     }
 
     public User register() {
-        User u = new User(UUID.randomUUID());
-        repository.save(u);
-        logger.info("user registered: id=" + u.getId());
-        return u;
+        User user = new User(UUID.randomUUID());
+        repository.save(user);
+        logger.info("user registered: id=" + user.getId());
+        return user;
     }
 
     public boolean exists(UUID id) {
