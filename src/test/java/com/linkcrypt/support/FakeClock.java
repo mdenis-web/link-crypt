@@ -1,26 +1,25 @@
 package com.linkcrypt.support;
 
 import com.linkcrypt.core.port.Clock;
-
 import java.time.Instant;
 
 public class FakeClock implements Clock {
-    private Instant now;
+  private Instant now;
 
-    public FakeClock(Instant start) {
-        this.now = start;
-    }
+  public FakeClock(Instant start) {
+    this.now = start;
+  }
 
-    @Override
-    public Instant now() {
-        return now;
-    }
+  @Override
+  public Instant now() {
+    return now;
+  }
 
-    public void advanceSeconds(long sec) {
-        now = now.plusSeconds(sec);
-    }
+  public void advanceSeconds(long sec) {
+    now = now.plusSeconds(sec);
+  }
 
-    public void set(Instant instant) {
-        this.now = instant;
-    }
+  public void set(Instant instant) {
+    this.now = instant;
+  }
 }
